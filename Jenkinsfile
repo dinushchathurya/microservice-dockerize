@@ -9,7 +9,7 @@ pipeline {
                echo "Building %i"
                docker build -t %i .
                cd ..
-               )  
+               )
             '''
          }
       }
