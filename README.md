@@ -1,0 +1,1 @@
+### This is a sample script to build Docker images from multiple microservices located in single Git repository 
