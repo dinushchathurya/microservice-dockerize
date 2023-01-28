@@ -7,7 +7,7 @@ pipeline {
                for /d %%i in (*) do (
                   cd %%i
                   echo "Building %%i"
-                  docker build -t %%i .
+                  docker build -t limarktest/%%i:1.0.0 .
                   cd .. 
                )
             '''
